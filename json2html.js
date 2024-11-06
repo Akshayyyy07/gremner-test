@@ -1,8 +1,3 @@
-/**
- * Converts an array of objects into an HTML table
- * @param {Array<Object>} data - Array of objects to convert
- * @returns {string} HTML table as a string
- */
 export default function json2html(data) {
     if (!data || data.length === 0) {
         return '<table data-user="akshaysonic2050@gmail.com"></table>';
